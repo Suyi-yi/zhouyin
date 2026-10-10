@@ -1,6 +1,6 @@
 {
-  "versionCode": 19,
-  "versionName": "0.6.3",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Suyi-yi/zhouyin@main/apk/zhouyin-0.6.3.apk",
-  "changelog": "0.6.3 更新内容：\n· 练习模式新增「演示」：App 内自动播放整曲（真实采样音色），先听两遍再上手\n· 长按悬浮控制条的「校准」= 一键恢复默认对齐\n· 新版 AI 提示词：强制节奏长短变化 + 乐句休止 + 输出前自查\n· 导入曲谱时可选「自动补乐句间隔」（默认开启）\n· 音色采样质检：25 个音全部合格（响度统一、剔除错音）"
+  "versionCode": 20,
+  "versionName": "0.6.4",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Suyi-yi/zhouyin@main/apk/zhouyin-0.6.4.apk",
+  "changelog": "0.6.4 更新内容：\n· 调性键切换提示改为「大圈缩小锁定」特效：目标键（升调/降调/自然音/半音）上一个大圈慢慢缩小，缩到按键大小的瞬间就是该按下的时候（比音符早半拍锁定）\n· 不再用颜色变化提示，单一颜色，反应时间充足\n· 练习模式与三角洲模式同步生效\n· 练习「演示」会自动播放整曲；长按浮层「校准」可恢复默认对齐"
 }
