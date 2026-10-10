@@ -1,6 +1,6 @@
 {
-  "versionCode": 18,
-  "versionName": "0.6.2",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Suyi-yi/zhouyin@main/apk/zhouyin.apk",
-  "changelog": "0.6.2 更新内容：\n· 更新源内置 GitHub：装完无需任何配置，点「检查更新」即可\n· AI 生成提示词强化：强制节奏长短变化 + 乐句休止 + 自查\n· 导入曲谱时可自动补乐句间隔（每小节半拍呼吸）\n· 修复顶部按钮被状态栏挡住点不动的问题\n· 音色采样质检修复：25 个音全部合格（响度统一、剔除错音）"
+  "versionCode": 19,
+  "versionName": "0.6.3",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Suyi-yi/zhouyin@main/apk/zhouyin-0.6.3.apk",
+  "changelog": "0.6.3 更新内容：\n· 练习模式新增「演示」：App 内自动播放整曲（真实采样音色），先听两遍再上手\n· 长按悬浮控制条的「校准」= 一键恢复默认对齐\n· 新版 AI 提示词：强制节奏长短变化 + 乐句休止 + 输出前自查\n· 导入曲谱时可选「自动补乐句间隔」（默认开启）\n· 音色采样质检：25 个音全部合格（响度统一、剔除错音）"
 }
