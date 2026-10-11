@@ -1,6 +1,6 @@
 {
-  "versionCode": 22,
-  "versionName": "0.6.6",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Suyi-yi/zhouyin@main/apk/zhouyin-0.6.6.apk",
-  "changelog": "0.6.6 更新内容：\n· 修复「检查更新一直搜不到新版本」：国内 CDN 缓存滞后时，旧版本号会挡住真正的更新；现在会问遍全部更新源（CDN 与 GitHub 直连）取版本号最高的一方\n· 曲库同步同样合并全部源的曲目（按标题去重，哪边更新都能拿到）\n· 修复后单一源滞后不再影响检查更新"
+  "versionCode": 23,
+  "versionName": "0.6.7",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Suyi-yi/zhouyin@main/apk/zhouyin-0.6.7.apk",
+  "changelog": "0.6.7 更新内容：\n· 修复「检查更新一直搜不到新版本」：现在会同时问遍多个更新源（两路国内 CDN + GitHub 直连）取版本号最高的一方，单一源缓存滞后不再挡更新\n· 曲库同步同样合并全部源的曲目（按标题去重，哪边更新都能拿到）\n· 装上这个版本后，以后更新源任意一路是新的都能检查到升级"
 }
