@@ -1,6 +1,6 @@
 {
-  "versionCode": 23,
-  "versionName": "0.6.7",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Suyi-yi/zhouyin@main/apk/zhouyin-0.6.7.apk",
-  "changelog": "0.6.7 更新内容：\n· 修复「检查更新一直搜不到新版本」：现在会同时问遍多个更新源（两路国内 CDN + GitHub 直连）取版本号最高的一方，单一源缓存滞后不再挡更新\n· 曲库同步同样合并全部源的曲目（按标题去重，哪边更新都能拿到）\n· 装上这个版本后，以后更新源任意一路是新的都能检查到升级"
+  "versionCode": 24,
+  "versionName": "0.6.8",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Suyi-yi/zhouyin@main/apk/zhouyin-0.6.8.apk",
+  "changelog": "0.6.8 更新内容：\n· AI 生成提示词重写：明确口琴是单声部乐器（一次只能按一个键，禁止和弦双音）；节奏长短按真实口琴曲型（长-长｜短-短-短-短-长）；不熟的歌 AI 必须直说、禁止编造\n· 导入页新增提示：冷门歌先搜\"歌名+简谱\"找现成谱，让 AI 只做格式转换，避免 AI 编出不存在的旋律\n· 云端曲库新增：《嘉豪进行曲》（实录扒谱）、《父亲》主段（社区谱面+实录交叉验证）——更新中心→检查并下载曲库即可"
 }
