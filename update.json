@@ -1,6 +1,6 @@
 {
-  "versionCode": 21,
-  "versionName": "0.6.5",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Suyi-yi/zhouyin@main/apk/zhouyin-0.6.5.apk",
-  "changelog": "0.6.5 更新内容：\n· 新增「自由练习」：没有曲谱也能一直弹（游戏同款键盘 + 真实采样音色，屏幕显示刚弹的音名）\n· 导入/编辑新增「单音区整理」：整曲自动移八度落到自然音区，平时基本不用按升降调键\n· 新增曲库：《反方向的钟》主旋律（抖音口琴谱转写，红色低音已处理）\n· 调性键提示为「大圈缩小锁定」特效（圈缩到位=该按）"
+  "versionCode": 22,
+  "versionName": "0.6.6",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Suyi-yi/zhouyin@main/apk/zhouyin-0.6.6.apk",
+  "changelog": "0.6.6 更新内容：\n· 修复「检查更新一直搜不到新版本」：国内 CDN 缓存滞后时，旧版本号会挡住真正的更新；现在会问遍全部更新源（CDN 与 GitHub 直连）取版本号最高的一方\n· 曲库同步同样合并全部源的曲目（按标题去重，哪边更新都能拿到）\n· 修复后单一源滞后不再影响检查更新"
 }

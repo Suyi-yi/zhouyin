@@ -16,9 +16,9 @@ Copyright © 2026 时屿工作室 (Shiyu Studio). 保留所有权利。
 |---|---|
 | `update.json` | App 版本信息：手机在「更新中心 → 检查更新」自动读取 |
 | `charts.json` | 云端曲库：手机点「检查并下载曲库」增量入库 |
-| `apk/zhouyin.apk` | 当前版本的安装包（update.json 指向它） |
+| `apk/zhouyin-<版本>.apk` | 各版本安装包（update.json 指向当前版本） |
 
-国内网络下 App 会用 jsDelivr CDN 加速读取，失败自动回退 GitHub 直连。
+国内网络下 App 会同时读取 jsDelivr CDN 与 GitHub 直连，取版本号最高的一方，单一源缓存滞后不影响检查更新。
 
 ## 安全边界（写入产品）
 
